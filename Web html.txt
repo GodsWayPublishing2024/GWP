@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>God's Way Publishing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="God's Way Publishing" id="logo">
+  </header>
+
+
+  <main>
+    <section class="contact">
+      <h1>Welcome to God's Way Publishing</h1>
+      <p>Contact us:</p>
+      <p>Phone: 336-307-0188</p>
+      <p>Email: <a href="mailto:Pegetahllc@gmail.com">Pegetahllc@gmail.com</a></p>
+    </section>
+
+
+    <section class="pricing">
+      <h2>Pricing Information</h2>
+      <p>Choose from the following options for your purchase:</p>
+      
+      <div class="pricing-option">
+        <h3>Option 1: Full Book</h3>
+        <p>Price: $20.00</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="XXXXXX"> <!-- Replace with your PayPal button ID -->
+          <input type="submit" value="Buy Now" class="paypal-button">
+        </form>
+      </div>
+
+
+      <div class="pricing-option">
+        <h3>Option 2: PDF Version</h3>
+        <p>Price: $15.00</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="XXXXXX"> <!-- Replace with your PayPal button ID -->
+          <input type="submit" value="Buy Now" class="paypal-button">
+        </form>
+      </div>
+
+
+      <p><a href="https://www.payhip.com/GWP" target="_blank">Pay Here for all options</a></p>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>Copyright © 2024 God's Way Publishing</p>
+  </footer>
+</body>
+</html>
